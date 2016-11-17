@@ -105,7 +105,7 @@ server <- function(input, output) {
           list(
             'id' = "1",
             'member_id' = "1",
-            'loan_amnt' = "1",
+            'loan_amnt' = "10000",
             'term' = input$term,
             'int_rate' = input$int_rate,
             'installment' = input$installment,
